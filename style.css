@@ -1,31 +1,41 @@
 body {
-  padding: 15px;
+  /* padding: 15px; */
+  margin: 0;
   background-color: white;
   color: black;
   font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
+}
+.intro h1 {
+  font-size: 60px;
 }
 #zen-intro {
   background-image: url("https://i.imgur.com/asT8h4s.jpg");
   color: white;
   background-color: black;
   width: 100%;
-  padding: 15px;
+  padding-bottom: 30px;
   opacity: 0.8;
   border-width: 0.5;
   border-color: grey;
   border-style: solid;
   box-shadow: 5px 10px;
 }
+#zen-intro h2 {
+  padding-left: 45px;
+}
 .subtitle {
   color: white;
 }
 .summary, .preamble, .main supporting {
   margin-right: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
 }
 .participation h3, .explanation h3, .benefits h3, .requirements h3 {
-  background-color: white; 
-  color: black;
+  background-color: red;
+  color: white;
 }
 .participation p, .explanation p, .benefits p, .requirements p {
   padding-left: 30px;
@@ -34,7 +44,7 @@ body {
   padding-bottom: 15px;
 }
 a {
-  color: red;
+  color: blue;
 }
 h3 {
   background-color: black;
@@ -45,15 +55,18 @@ h3 {
 h1 {
   background-color: white;
   color: black;
-  padding: 10px;
-}
-#zen-supporting {
-  background-color: black;
-  color: white;
-  opacity: 0.5;
   padding: 15px;
 }
+#zen-supporting {
+  background-image: url('https://i.imgur.com/sES6Ul5.jpg');
+  background-size: 1500px;
+  color: black;;
+  opacity: 0.5;
+  padding: 20px;
+}
 .sidebar {
+  background-image: url('https://i.imgur.com/sES6Ul5.jpg');
+  background-size: 800px;
   margin-left: 600px; 
   background-color: white;
   color: black;
@@ -65,4 +78,8 @@ h1 {
 	top: 0; 
   right: 0;
   padding: 15px;
+}
+footer { 
+  text-align: center; 
+  margin-bottom: 10px;
 }
